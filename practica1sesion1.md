@@ -46,7 +46,7 @@ está compuesto de cuatro campos, donde el primero es si queremos que se haga so
 
 Hacer notar que en cuando se crea un archivo se copia el ACL del directorio en caso de tener *default ACL* y si no se toman los parámetros de mode y mask usado cuando se crea el archivo. 
 
-El campo **mask** sirve para indicar el máximo de credenciales que pueden tener los usuarios que no sean el propietario y cualquier grupo, propietario o no. 
+El campo **mask** sirve para indicar el máximo de credenciales que pueden tener los usuarios que no sean el propietario y cualquier grupo, propietario o no.
 
 ![default2](imgs/acl2.png)
 
